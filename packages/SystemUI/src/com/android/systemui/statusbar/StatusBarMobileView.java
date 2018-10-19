@@ -222,8 +222,9 @@ public class StatusBarMobileView extends FrameLayout implements DarkReceiver,
         mOut.setImageTintList(color);
         mMobileType.setImageTintList(color);
         mMobileRoaming.setImageTintList(color);
-        mDotView.setDecorColor(tint);
-        mDotView.setIconColor(tint, false);
+        mVolte.setImageTintList(color);
+        mDotView.setDecorColor(areaTint);
+        mDotView.setIconColor(areaTint, false);
     }
 
     @Override
@@ -245,6 +246,7 @@ public class StatusBarMobileView extends FrameLayout implements DarkReceiver,
         mOut.setImageTintList(list);
         mMobileType.setImageTintList(list);
         mMobileRoaming.setImageTintList(list);
+        mVolte.setImageTintList(list);
         mDotView.setDecorColor(color);
     }
 
